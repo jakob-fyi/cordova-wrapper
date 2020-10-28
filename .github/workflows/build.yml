@@ -64,5 +64,5 @@ jobs:
       - name: Cordova - Platform Add iOS
         run: cordova platform add ios
 
-      - name: Cordova - Build Android
+      - name: Cordova - Build iOS
         run: cordova build ios
