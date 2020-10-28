@@ -32,11 +32,11 @@ jobs:
       - name: Install Dependencies
         run: npm ci
         
-      - name: Cordova - Platform Add Android
-        run: cordova platform add android
-          
       - name: Cordova - Generate Resources
         run: cordova-res android
+        
+      - name: Cordova - Platform Add Android
+        run: cordova platform add android
         
       - name: Cordova - Build Android
         run: cordova build android
