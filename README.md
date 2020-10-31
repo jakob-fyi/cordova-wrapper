@@ -1,16 +1,12 @@
-# cordova-wrapper
+# Cordova Wrapper Sample App
 
-Resources
-https://github.com/ionic-team/cordova-res
+## Generate Resources (Icon & Splash Screen) 
 
+Package: https://github.com/ionic-team/cordova-res
 
+Install: `sudo npm install -g --unsafe-perm cordova-res`
 
-
-Pipe:
-npm install -g cordova
-sudo npm install -g --unsafe-perm cordova-res
-
-npm install
+```sh
 cordova-res android
-
-cordova build android
+cordova-res ios
+```
